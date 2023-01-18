@@ -1,0 +1,276 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.DubaiBody{
+    background-image: url("../../assets/dubai.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.FloridaBody{
+    background-image: url("../../assets/florida.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.HongkongBody{
+    background-image: url("../../assets/hongkong.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.ManhattanBody{
+    background-image: url("../../assets/manhattan.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.logo{
+    font-family: 'Kaushan Script';
+    color: white;
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.navbars{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbars li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+c
+.nav-btn{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins';
+
+}
+.hero{
+    width: 90%;
+    margin: auto;
+}
+.beaches{
+    color: white;
+    font-size: 10px;
+    font-family: 'Kaushan Script';
+}
+
+
+.main-header{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 60%;
+
+}
+
+.main-subtext{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    width: 40%;
+}
+
+.main-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.sec2-bg{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10%;
+   
+}
+
+.sec2-sub{
+    display: flex;
+    column-gap: 13%;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Poppins';
+    padding-top: 2px;
+    padding-left: 25px;
+
+}
+
+.sec3-btn{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 12%;
+    border-radius: 20px;
+    margin-top: 12px;
+    font-family: 'Kaushan Script';
+    border: none;
+
+}
+
+.secHeader{
+    font-family: 'Kaushan Script';
+    text-align: center;
+    margin-top: 30px;
+}
+.best{
+    color: orange;
+}
+
+.dest{
+    color: rgb(24, 24, 24);
+}
+
+.sec-sunHeader-content{
+   display: flex;
+   justify-content: center;
+}
+
+.sec-sunHeader{
+    width: 50%;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.card1{
+    height: 250px;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px rgb(209, 209, 209) ;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    margin-top: 40px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px ) {
+    .navbars{
+        display: none;
+    }
+
+    .beaches{
+        text-align: center;
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    .main-header{
+        font-size: 12px;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .main-subtext{
+        width: 70%;
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .explore-btn{
+     text-align: center;
+    }
+
+    .sec2-bg{
+        display: none;
+    }
+
+    .sec-sunHeader{
+        width: 95%;
+    }
+
+    .card-content{
+        flex-direction: column;
+    }
+
+    .card1{
+        width: 100%;
+        height:  400px ;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .main-header{
+        width: 100%;
+        font-size: 9;
+    }
+
+     .main-subtext{
+        width: 100%;
+        font-size: 7px;
+    }
+
+    .main-btn{
+        font-size: 5px;
+        font-weight: 900;
+        padding: 5px;
+    }
+
+    .logo, .nav-btn{
+        font-size: 10px !important;
+    }
+
+    .nav-btn{
+        padding: 4px;
+        position: absolute;
+        top: 21px;
+        right: 10px;
+    }
+}
